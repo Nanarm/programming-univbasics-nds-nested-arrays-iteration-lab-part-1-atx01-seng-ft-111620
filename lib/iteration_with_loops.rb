@@ -9,7 +9,7 @@ def find_even_values(src)
   #   end
   # end
   idx = 0
-while idx < array.length
+while idx < array_of_arrays.length
   if array_of_arrays[idx] % 2 == 0  # conditional using modulo operator
     puts array_of_arrays[idx]       # puts out even number
   end
