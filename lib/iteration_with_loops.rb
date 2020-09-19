@@ -5,10 +5,10 @@ def find_even_values(src)
   #
   # Output all even values in each nested array
   count = 0
- while count < spice_rack.count do
+ while count < array_of_arrays.length do
    play = 0
    while element_index < spice_rack[count].length do
-     p spice_rack[count][play]
+     even?
      play += 1
    end
    count += 1
