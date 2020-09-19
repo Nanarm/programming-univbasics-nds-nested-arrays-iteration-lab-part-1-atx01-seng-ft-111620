@@ -6,12 +6,12 @@ def find_even_values(src)
   # Output all even values in each nested array
   count = 0
  while count < spice_rack.count do
-   element_index = 0
+   play = 0
    while element_index < spice_rack[count].length do
-     p spice_rack[count][element_index]
-     element_index += 1
+     p spice_rack[count][play]
+     play += 1
    end
-   row_index += 1
+   count += 1
  end
   
 end
