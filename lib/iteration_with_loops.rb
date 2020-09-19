@@ -6,9 +6,9 @@ def find_even_values(src)
  while count < array_of_arrays.length do
    play = 0
    while count < array_of_arrays[count].length do
-     if array_of_arrays % 2 = 0
+     while array_of_arrays % 2 = 0
       play += 1
-    else nil 
+     
   end
    end
    count += 1
