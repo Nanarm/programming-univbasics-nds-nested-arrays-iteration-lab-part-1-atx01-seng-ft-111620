@@ -5,7 +5,7 @@ def find_even_values(src)
   count = 0
  while count < array_of_arrays.length do
    play = 0
-   while element_index < spice_rack[count].length do
+   while count < array_of_arrays[count].length do
      even?
      play += 1
    end
